@@ -41,7 +41,7 @@ def main():
 
     num_words = get_num_words(text)
 
-    print(f"--- Begin report of {path} ---")
+    print(f"--- Begin report of {path.split('/')[-1]} ---")
     print(f"{num_words} words found in the document")
     print()
 
